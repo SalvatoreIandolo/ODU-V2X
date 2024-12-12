@@ -1,5 +1,5 @@
 # ODU-V2X
-This repository contains the documentation to make Linux talk IEEE 802.11p, an amendment to the popular IEEE 802.11 standard (aka Wi-Fi) aiming at wireless access in vehicular environments (WAVE), using as microprocessor the Raspberry Pi 5.
+This repository contains the documentation to make Linux talk IEEE 802.11p, an amendment to the popular IEEE 802.11 standard (aka Wi-Fi) aiming at wireless access in vehicular environments (WAVE), using as microprocessor the Raspberry Pi 5. We provide [here](https://drive.google.com/file/d/18nidumndKURn4lcGJB4QnWLtRST3PxBK/view?usp=sharing) a ready-to-use ISO that can be flashed and enables all the features descrived in the following sections.
 ## Hardware
 To access the the 5.9Ghz band and support IEEE 802.11p, we equipped the Raspberry with a HAT (Hardware Attached on Top) enabling the support of MiniPCIe Wi-Fi cards and installed an "ath9k" Wi-Fi card, in our case the Mikrotik R11e-5HnD. This was done because the ath9k Wi-Fi driver is the only one capable of supporting both OCB (Outside the Context of a BSS) and the 5.9Ghz band. To sum up, the hardware needed is:
 - Raspberry Pi 5
