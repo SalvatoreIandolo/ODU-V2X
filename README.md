@@ -3,7 +3,7 @@ This repository contains the documentation to make Linux talk IEEE 802.11p, an a
 ## Hardware
 To access the the 5.9Ghz band and support IEEE 802.11p, we equipped the Raspberry with a HAT (Hardware Attached on Top) enabling the support of MiniPCIe Wi-Fi cards and installed an "ath9k" Wi-Fi card, in our case the Mikrotik R11e-5HnD. This was done because the ath9k Wi-Fi driver is the only one capable of supporting both OCB (Outside the Context of a BSS) and the 5.9Ghz band. To sum up, the hardware needed is:
 - Raspberry Pi 5
-- Hat mPCIe for Raspberry Pi 5 (the one we used can be found [here](https://pineboards.io/products/hat-mpcie-for-raspberry-pi-5?_pos=2&_sid=b284f9774&_ss=r)
+- Hat mPCIe for Raspberry Pi 5 (the one we used can be found [here](https://pineboards.io/products/hat-mpcie-for-raspberry-pi-5?_pos=2&_sid=b284f9774&_ss=r))
 - Wi-Fi card [Mikrotik R11e-5HnD](https://mikrotik.com/product/R11e-5HnD)
 
 ## Software setup
